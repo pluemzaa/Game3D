@@ -1,15 +1,18 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1757584502
+::res://::1757603470
 default_bus_layout.tres::AudioBusLayout/AudioBusLayout::-1::1757562642::0::1::::<><><>0<>0<><>::
 default_env.tres::Environment/Environment::-1::1757562642::0::1::::<><><>0<>0<><>::
-ground.tscn::PackedScene::1381875615725575167::1757584354::0::1::::<><><>0<>0<><>::uid://bmcupf4vwmq32::::res://player.tscn
+ground.tscn::PackedScene::1381875615725575167::1757603470::0::1::::<><><>0<>0<><>::uid://bmcupf4vwmq32::::res://player.tscn
 icon.png::CompressedTexture2D/CompressedTexture2D::1158398568133377324::1757562637::1757562657::1::::<><><>0<>0<>8b0ae67720e537de9b51df738193921d<>res://.godot/imported/icon.png-487276ed1e3a0c39cad0279d744ee560.ctex::
-player.gd::GDScript::3757356446269848656::1757582683::0::1::::<>CharacterBody3D<><>0<>0<><>::
-player.tscn::PackedScene::3234056998021625139::1757584354::0::1::::<><><>0<>0<><>::uid://dynnmt28hsaux::::res://art/Bunny.glb<>uid://btsdd2e1wqsse::::res://player.gd
-::res://art/::1757581172
+player.gd::GDScript/GDScript::3757356446269848656::1757582683::0::1::::<>CharacterBody3D<><>0<>0<><>::
+player.tscn::PackedScene::3234056998021625139::1757603224::0::1::::<><><>0<>0<><>::uid://dynnmt28hsaux::::res://art/Bunny.glb<>uid://btsdd2e1wqsse::::res://player.gd
+mob.tscn::PackedScene::303347586103043390::1757603224::0::1::::<><><>0<>0<><>::uid://bghpflto0r7id::::res://art/Ghost.glb<>uid://kskdsdxemcht::::res://mob.gd<>uid://cidfqidypy4d8::::res://art/mob.glb
+mob.gd::GDScript::739660714368329289::1757602703::0::1::::<>CharacterBody3D<><>0<>0<><>::
+::res://art/::1757602031
 body.material::StandardMaterial3D/StandardMaterial3D::-1::1757562637::0::1::::<><><>0<>0<><>::
 Bunny.glb::PackedScene/PackedScene::8871443000790483743::1757581170::1757581172::1::::<><><>0<>0<>0380075467110bec48936c57e7ea2bb5<>res://.godot/imported/Bunny.glb-c74cbac194822ea9aceaa40be905fd8f.scn::
 eye.material::StandardMaterial3D/StandardMaterial3D::-1::1757562637::0::1::::<><><>0<>0<><>::
+Ghost.glb::PackedScene::2822924681439080491::1757602031::1757602031::1::::<><><>0<>0<>18d8ed27090225011f740ed402b58f77<>res://.godot/imported/Ghost.glb-e59b0803afb86d3e0e88d1c9f0ad4e5e.scn::
 House In a Forest Loop.ogg::AudioStreamOggVorbis/AudioStreamOggVorbis::8940472840607298202::1757562637::1757562657::1::::<><><>0<>0<>c1fa2069c38d9069bb38b2fc22dca1bc<>res://.godot/imported/House In a Forest Loop.ogg-1a6a72ae843ad792b7039931227e8d50.oggvorbisstr::
 mob.glb::PackedScene/PackedScene::5340877833351637739::1757562637::1757562657::1::::<><><>0<>0<>37aa9e73787f0a2278fc1934501b9939<>res://.godot/imported/mob.glb-3afb43c03b9d1598b6af5154e2543eac.scn::
 mob_body.material::StandardMaterial3D/StandardMaterial3D::-1::1757562637::0::1::::<><><>0<>0<><>::
