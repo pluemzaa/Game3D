@@ -1,16 +1,16 @@
 [gd_scene load_steps=21 format=3 uid="uid://txnj3wmr1jsx"]
 
-[ext_resource type="Script" uid="uid://dttm55gfmcg83" path="res://main.gd" id="1_r0du0"]
-[ext_resource type="PackedScene" uid="uid://ek7dcsaffoly" path="res://mob.tscn" id="2_cm0pq"]
-[ext_resource type="PackedScene" uid="uid://bmcupf4vwmq32" path="res://player.tscn" id="3_fos0i"]
-[ext_resource type="FontFile" uid="uid://dekycy0sny0oa" path="res://THSarabunNew.ttf" id="4_fos0i"]
-[ext_resource type="Script" uid="uid://bn61m3ixfr1ra" path="res://score_label.gd" id="5_3dxm6"]
-[ext_resource type="Texture2D" uid="uid://di8uh763k0ed" path="res://tree_texture.png" id="6_lgr22"]
-[ext_resource type="ArrayMesh" uid="uid://da61as8h3iga5" path="res://tree01.obj" id="7_trn2v"]
-[ext_resource type="Texture2D" uid="uid://c48224g5yoyc2" path="res://PUSHILIN_tree_stump.png" id="8_03owx"]
-[ext_resource type="Texture2D" uid="uid://6wud8pqc75mj" path="res://Lamborginhi Aventador_diffuse.jpeg" id="8_20pc6"]
-[ext_resource type="ArrayMesh" uid="uid://dmapy2ycj5kmw" path="res://Lamborghini_Aventador.obj" id="9_20pc6"]
-[ext_resource type="ArrayMesh" uid="uid://bndwdeyao0jp" path="res://PUSHILIN_tree_stump.obj" id="9_wkp8b"]
+[ext_resource type="Script" uid="uid://dttm55gfmcg83" path="res://main.gd" id="1_efxa6"]
+[ext_resource type="PackedScene" uid="uid://ek7dcsaffoly" path="res://mob.tscn" id="2_dg77c"]
+[ext_resource type="PackedScene" uid="uid://bmcupf4vwmq32" path="res://player.tscn" id="3_ycdy4"]
+[ext_resource type="FontFile" uid="uid://dekycy0sny0oa" path="res://THSarabunNew.ttf" id="4_w48qg"]
+[ext_resource type="Script" uid="uid://bn61m3ixfr1ra" path="res://score_label.gd" id="5_vivmo"]
+[ext_resource type="Texture2D" uid="uid://di8uh763k0ed" path="res://tree_texture.png" id="6_2cqfq"]
+[ext_resource type="ArrayMesh" uid="uid://da61as8h3iga5" path="res://tree01.obj" id="7_yaehf"]
+[ext_resource type="Texture2D" uid="uid://6wud8pqc75mj" path="res://Lamborginhi Aventador_diffuse.jpeg" id="8_074og"]
+[ext_resource type="ArrayMesh" uid="uid://dmapy2ycj5kmw" path="res://Lamborghini_Aventador.obj" id="9_cegan"]
+[ext_resource type="Texture2D" uid="uid://c48224g5yoyc2" path="res://PUSHILIN_tree_stump.png" id="10_82xsv"]
+[ext_resource type="ArrayMesh" uid="uid://bndwdeyao0jp" path="res://PUSHILIN_tree_stump.obj" id="11_getpj"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_lv0v5"]
 size = Vector3(60, 2, 60)
@@ -35,17 +35,17 @@ _data = {
 point_count = 4
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_03owx"]
-albedo_texture = ExtResource("6_lgr22")
+albedo_texture = ExtResource("6_2cqfq")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5vvyt"]
-albedo_texture = ExtResource("8_20pc6")
+albedo_texture = ExtResource("8_074og")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_20pc6"]
-albedo_texture = ExtResource("8_03owx")
+albedo_texture = ExtResource("10_82xsv")
 
 [node name="Main" type="Node"]
-script = ExtResource("1_r0du0")
-mob_scene = ExtResource("2_cm0pq")
+script = ExtResource("1_efxa6")
+mob_scene = ExtResource("2_dg77c")
 
 [node name="Ground" type="StaticBody3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.983342, 0)
@@ -61,7 +61,7 @@ transform = Transform3D(60, 0, 0, 0, 2, 0, 0, 0, 60, 0, 0, 0)
 mesh = SubResource("BoxMesh_yh8r4")
 surface_material_override/0 = SubResource("StandardMaterial3D_fos0i")
 
-[node name="Player" parent="." instance=ExtResource("3_fos0i")]
+[node name="Player" parent="." instance=ExtResource("3_ycdy4")]
 transform = Transform3D(-0.965926, 0, 0.258819, 0, 1, 0, -0.258819, 0, -0.965926, 0, 1, 0)
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
@@ -118,10 +118,10 @@ layout_mode = 0
 offset_left = 534.0
 offset_right = 655.0
 offset_bottom = 66.0
-theme_override_fonts/font = ExtResource("4_fos0i")
+theme_override_fonts/font = ExtResource("4_w48qg")
 theme_override_font_sizes/font_size = 50
 text = "Score: 0"
-script = ExtResource("5_3dxm6")
+script = ExtResource("5_vivmo")
 
 [node name="name" type="Label" parent="UserInterface"]
 layout_mode = 0
@@ -129,7 +129,7 @@ offset_left = 16.0
 offset_top = 2.0
 offset_right = 137.0
 offset_bottom = 68.0
-theme_override_fonts/font = ExtResource("4_fos0i")
+theme_override_fonts/font = ExtResource("4_w48qg")
 theme_override_font_sizes/font_size = 50
 text = "นายธนพล ผาบสิมมา 663380269-9"
 
@@ -156,34 +156,34 @@ offset_bottom = 39.5
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_fonts/font = ExtResource("4_fos0i")
+theme_override_fonts/font = ExtResource("4_w48qg")
 theme_override_font_sizes/font_size = 60
 text = "Press Enter to retry."
 
 [node name="Tree01" type="MeshInstance3D" parent="."]
 transform = Transform3D(0.00200518, 0, 0.00458031, 0, 0.005, 0, -0.00458031, 0, 0.00200518, -5.62687, 0.016658, -1.44916)
 material_override = SubResource("StandardMaterial3D_03owx")
-mesh = ExtResource("7_trn2v")
+mesh = ExtResource("7_yaehf")
 
 [node name="Tree03" type="MeshInstance3D" parent="."]
 transform = Transform3D(0.00200518, 0, 0.00458031, 0, 0.005, 0, -0.00458031, 0, 0.00200518, 4.09269, 0.016658, 1.17788)
 material_override = SubResource("StandardMaterial3D_03owx")
-mesh = ExtResource("7_trn2v")
+mesh = ExtResource("7_yaehf")
 
 [node name="Tree02" type="MeshInstance3D" parent="."]
 transform = Transform3D(-0.00332302, 0, 0.00373598, 0, 0.005, 0, -0.00373598, 0, -0.00332302, 3.92535, 0.016658, -3.9911)
 material_override = SubResource("StandardMaterial3D_03owx")
-mesh = ExtResource("7_trn2v")
+mesh = ExtResource("7_yaehf")
 
 [node name="PushilinTreeStump" type="MeshInstance3D" parent="."]
 transform = Transform3D(0.00640284, 0, -0.00282906, 0, 0.007, 0, 0.00282906, 0, 0.00640284, -5.17872, 0.0149182, -3.15403)
 material_override = SubResource("StandardMaterial3D_5vvyt")
-mesh = ExtResource("9_20pc6")
+mesh = ExtResource("9_cegan")
 
 [node name="PushilinTreeStump2" type="MeshInstance3D" parent="."]
 transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -4.06037, 0.234043, 0.982605)
 material_override = SubResource("StandardMaterial3D_20pc6")
-mesh = ExtResource("9_wkp8b")
+mesh = ExtResource("11_getpj")
 
 [connection signal="hit" from="Player" to="." method="_on_player_hit"]
 [connection signal="timeout" from="MobTimer" to="." method="_on_mob_timer_timeout"]
