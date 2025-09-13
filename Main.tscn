@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=3 uid="uid://txnj3wmr1jsx"]
+[gd_scene load_steps=21 format=3 uid="uid://txnj3wmr1jsx"]
 
 [ext_resource type="Script" uid="uid://dttm55gfmcg83" path="res://main.gd" id="1_r0du0"]
 [ext_resource type="PackedScene" uid="uid://ek7dcsaffoly" path="res://mob.tscn" id="2_cm0pq"]
@@ -8,6 +8,8 @@
 [ext_resource type="Texture2D" uid="uid://di8uh763k0ed" path="res://tree_texture.png" id="6_lgr22"]
 [ext_resource type="ArrayMesh" uid="uid://da61as8h3iga5" path="res://tree01.obj" id="7_trn2v"]
 [ext_resource type="Texture2D" uid="uid://c48224g5yoyc2" path="res://PUSHILIN_tree_stump.png" id="8_03owx"]
+[ext_resource type="Texture2D" uid="uid://6wud8pqc75mj" path="res://Lamborginhi Aventador_diffuse.jpeg" id="8_20pc6"]
+[ext_resource type="ArrayMesh" uid="uid://dmapy2ycj5kmw" path="res://Lamborghini_Aventador.obj" id="9_20pc6"]
 [ext_resource type="ArrayMesh" uid="uid://bndwdeyao0jp" path="res://PUSHILIN_tree_stump.obj" id="9_wkp8b"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_lv0v5"]
@@ -34,6 +36,9 @@ point_count = 4
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_03owx"]
 albedo_texture = ExtResource("6_lgr22")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5vvyt"]
+albedo_texture = ExtResource("8_20pc6")
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_20pc6"]
 albedo_texture = ExtResource("8_03owx")
@@ -156,27 +161,27 @@ theme_override_font_sizes/font_size = 60
 text = "Press Enter to retry."
 
 [node name="Tree01" type="MeshInstance3D" parent="."]
-transform = Transform3D(0.00200518, 0, 0.00458031, 0, 0.005, 0, -0.00458031, 0, 0.00200518, -4.66599, 0.016658, -2.40405)
+transform = Transform3D(0.00200518, 0, 0.00458031, 0, 0.005, 0, -0.00458031, 0, 0.00200518, -5.62687, 0.016658, -1.44916)
 material_override = SubResource("StandardMaterial3D_03owx")
 mesh = ExtResource("7_trn2v")
 
 [node name="Tree03" type="MeshInstance3D" parent="."]
-transform = Transform3D(0.00200518, 0, 0.00458031, 0, 0.005, 0, -0.00458031, 0, 0.00200518, 4.35795, 0.016658, 1.27982)
+transform = Transform3D(0.00200518, 0, 0.00458031, 0, 0.005, 0, -0.00458031, 0, 0.00200518, 4.09269, 0.016658, 1.17788)
 material_override = SubResource("StandardMaterial3D_03owx")
 mesh = ExtResource("7_trn2v")
 
 [node name="Tree02" type="MeshInstance3D" parent="."]
-transform = Transform3D(-0.00332302, 0, 0.00373598, 0, 0.005, 0, -0.00373598, 0, -0.00332302, 2.62861, 0.016658, -2.8377)
+transform = Transform3D(-0.00332302, 0, 0.00373598, 0, 0.005, 0, -0.00373598, 0, -0.00332302, 3.92535, 0.016658, -3.9911)
 material_override = SubResource("StandardMaterial3D_03owx")
 mesh = ExtResource("7_trn2v")
 
 [node name="PushilinTreeStump" type="MeshInstance3D" parent="."]
-transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 4.64236, 0.234043, -1.61883)
-material_override = SubResource("StandardMaterial3D_20pc6")
-mesh = ExtResource("9_wkp8b")
+transform = Transform3D(0.00640284, 0, -0.00282906, 0, 0.007, 0, 0.00282906, 0, 0.00640284, -5.17872, 0.0149182, -3.15403)
+material_override = SubResource("StandardMaterial3D_5vvyt")
+mesh = ExtResource("9_20pc6")
 
 [node name="PushilinTreeStump2" type="MeshInstance3D" parent="."]
-transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -1.3984, 0.234043, 0.982605)
+transform = Transform3D(0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, -4.06037, 0.234043, 0.982605)
 material_override = SubResource("StandardMaterial3D_20pc6")
 mesh = ExtResource("9_wkp8b")
 
