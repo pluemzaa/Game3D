@@ -1,18 +1,22 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1757773866
+::res://::1757776323
 default_bus_layout.tres::AudioBusLayout/AudioBusLayout::-1::1757562642::0::1::::<><><>0<>0<><>::
 default_env.tres::Environment/Environment::-1::1757562642::0::1::::<><><>0<>0<><>::
+export_presets.cfg::TextFile/TextFile::-1::1757775797::0::1::::<><><>0<>0<><>::
 icon.png::CompressedTexture2D/CompressedTexture2D::1158398568133377324::1757562637::1757562657::1::::<><><>0<>0<>8b0ae67720e537de9b51df738193921d<>res://.godot/imported/icon.png-487276ed1e3a0c39cad0279d744ee560.ctex::
-Lamborghini_Aventador.obj::Mesh::8002483243990755094::1757773606::1757773606::1::::<><><>0<>0<>9fa8aba6d14073cc62d05a4014be97d2<>res://.godot/imported/Lamborghini_Aventador.obj-4ef9cf26680f7447b8657f1d7ce1a426.mesh<*>res://.godot/imported/Lamborghini_Aventador.obj-4ef9cf26680f7447b8657f1d7ce1a426.mesh::
-Lamborginhi Aventador_diffuse.jpeg::CompressedTexture2D::2222491917778916217::1757773865::1757773870::1::::<><><>0<>0<>5a8ec41a98cdb8f0dcafc481ba4294e4<>res://.godot/imported/Lamborginhi Aventador_diffuse.jpeg-44f3985b4d4874887f8b9f96cf2c96e4.s3tc.ctex::
-Lamborginhi Aventador_spec.jpeg::CompressedTexture2D::3382283961857921446::1757773614::1757773666::1::::<><><>0<>0<>17d2bc4c4ccd5cb437528ea60221f72f<>res://.godot/imported/Lamborginhi Aventador_spec.jpeg-a60c9e85316d9feedf2c4e91085ded96.s3tc.ctex::
+index.apple-touch-icon.png::CompressedTexture2D/CompressedTexture2D::5396577500681638412::1757775797::1757775996::1::::<><><>0<>0<>cb76799208d75d1b1df10036ff922413<>res://.godot/imported/index.apple-touch-icon.png-8085a11cc297d91deb55511843765958.ctex::
+index.icon.png::CompressedTexture2D/CompressedTexture2D::4226497264076919471::1757775797::1757775996::1::::<><><>0<>0<>ecad2636ecb5648df809c52cbaedbbfc<>res://.godot/imported/index.icon.png-5665fad188e88d1e882500a4376bfe02.ctex::
+index.png::CompressedTexture2D/CompressedTexture2D::7018676429322922449::1757775797::1757775997::1::::<><><>0<>0<>0db3385563aa075cf767e7d3bb0da544<>res://.godot/imported/index.png-5122033cac747157decad52589e2295c.ctex::
+Lamborghini_Aventador.obj::Mesh/Mesh::8002483243990755094::1757773606::1757773606::1::::<><><>0<>0<>9fa8aba6d14073cc62d05a4014be97d2<>res://.godot/imported/Lamborghini_Aventador.obj-4ef9cf26680f7447b8657f1d7ce1a426.mesh<*>res://.godot/imported/Lamborghini_Aventador.obj-4ef9cf26680f7447b8657f1d7ce1a426.mesh::
+Lamborginhi Aventador_diffuse.jpeg::CompressedTexture2D/CompressedTexture2D::2222491917778916217::1757773865::1757773870::1::::<><><>0<>0<>5a8ec41a98cdb8f0dcafc481ba4294e4<>res://.godot/imported/Lamborginhi Aventador_diffuse.jpeg-44f3985b4d4874887f8b9f96cf2c96e4.s3tc.ctex::
+Lamborginhi Aventador_spec.jpeg::CompressedTexture2D/CompressedTexture2D::3382283961857921446::1757773614::1757773666::1::::<><><>0<>0<>17d2bc4c4ccd5cb437528ea60221f72f<>res://.godot/imported/Lamborginhi Aventador_spec.jpeg-a60c9e85316d9feedf2c4e91085ded96.s3tc.ctex::
 main.gd::GDScript/GDScript::8532857020472029318::1757695260::0::1::::<>Node<><>0<>0<><>::
-Main.tscn::PackedScene::1381875615725575167::1757773754::0::1::::<><><>0<>0<><>::uid://dttm55gfmcg83::::res://main.gd<>uid://ek7dcsaffoly::::res://mob.tscn<>uid://bmcupf4vwmq32::::res://player.tscn<>uid://dekycy0sny0oa::::res://THSarabunNew.ttf<>uid://bn61m3ixfr1ra::::res://score_label.gd<>uid://di8uh763k0ed::::res://tree_texture.png<>uid://da61as8h3iga5::::res://tree01.obj<>uid://c48224g5yoyc2::::res://PUSHILIN_tree_stump.png<>uid://dmapy2ycj5kmw::::res://Lamborghini_Aventador.obj<>uid://bndwdeyao0jp::::res://PUSHILIN_tree_stump.obj
+Main.tscn::PackedScene::1381875615725575167::1757776069::0::1::::<><><>0<>0<><>::uid://dttm55gfmcg83::::res://main.gd<>uid://ek7dcsaffoly::::res://mob.tscn<>uid://bmcupf4vwmq32::::res://player.tscn<>uid://dekycy0sny0oa::::res://THSarabunNew.ttf<>uid://bn61m3ixfr1ra::::res://score_label.gd<>uid://di8uh763k0ed::::res://tree_texture.png<>uid://da61as8h3iga5::::res://tree01.obj<>uid://c48224g5yoyc2::::res://PUSHILIN_tree_stump.png<>uid://6wud8pqc75mj::::res://Lamborginhi Aventador_diffuse.jpeg<>uid://dmapy2ycj5kmw::::res://Lamborghini_Aventador.obj<>uid://bndwdeyao0jp::::res://PUSHILIN_tree_stump.obj
 mob.gd::GDScript/GDScript::739660714368329289::1757692377::0::1::::<>CharacterBody3D<><>0<>0<><>::
-mob.tscn::PackedScene::303347586103043390::1757773754::0::1::::<><><>0<>0<><>::uid://bghpflto0r7id::::res://art/Ghost.glb<>uid://kskdsdxemcht::::res://mob.gd<>uid://cidfqidypy4d8::::res://art/mob.glb
-music_player.tscn::PackedScene::4886525721076798233::1757773754::0::1::::<><><>0<>0<><>::uid://d0m3jtmyks6os::::res://art/House In a Forest Loop.ogg
+mob.tscn::PackedScene::303347586103043390::1757776069::0::1::::<><><>0<>0<><>::uid://bghpflto0r7id::::res://art/Ghost.glb<>uid://kskdsdxemcht::::res://mob.gd<>uid://cidfqidypy4d8::::res://art/mob.glb
+music_player.tscn::PackedScene::4886525721076798233::1757776069::0::1::::<><><>0<>0<><>::uid://d0m3jtmyks6os::::res://art/House In a Forest Loop.ogg
 player.gd::GDScript/GDScript::3757356446269848656::1757689729::0::1::::<>CharacterBody3D<><>0<>0<><>::
-player.tscn::PackedScene::3234056998021625139::1757773754::0::1::::<><><>0<>0<><>::uid://dynnmt28hsaux::::res://art/Bunny.glb<>uid://btsdd2e1wqsse::::res://player.gd
+player.tscn::PackedScene::3234056998021625139::1757776069::0::1::::<><><>0<>0<><>::uid://dynnmt28hsaux::::res://art/Bunny.glb<>uid://btsdd2e1wqsse::::res://player.gd
 PUSHILIN_tree_stump.obj::Mesh/Mesh::97247357725314325::1757773180::1757773181::1::::<><><>0<>0<>e98f65ac3053d90736e718eb075d8350<>res://.godot/imported/PUSHILIN_tree_stump.obj-81382651ebfcdc7d67a3b2ffd61f69ee.mesh<*>res://.godot/imported/PUSHILIN_tree_stump.obj-81382651ebfcdc7d67a3b2ffd61f69ee.mesh::
 PUSHILIN_tree_stump.png::CompressedTexture2D/CompressedTexture2D::6878131407854934127::1757773183::1757773234::1::::<><><>0<>0<>ed01965cb915b5a0bd1a220fc5995ea9<>res://.godot/imported/PUSHILIN_tree_stump.png-9c1c425f790336f00c7f3f01bdcd2593.s3tc.ctex::
 score_label.gd::GDScript/GDScript::3364472916766796514::1757691529::0::1::::<>Label<><>0<>0<><>::
